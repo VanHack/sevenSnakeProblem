@@ -25,8 +25,7 @@ Then, the program creates all possible combinations of 6 moves (UP, DOWN, LEFT, 
 From these combinations, some are discarded since they would produce invalid snakes, for example:
 - Any sequence that contains an `UP` move followed by a `DOWN` move. (the snake should use 7 distinct cells)
 - Any sequence that contains an `UP`, `LEFT` and `DOWN` sequence of moves (this sequence would create a cycle).
-
-There are a total of 12 invalid move sequences.
+- There are a total of 12 invalid move sequences...
 
 After getting the M-element list of 6 moves, the program goes through all grid cells and tries to create M snakes based on this list. 
 
