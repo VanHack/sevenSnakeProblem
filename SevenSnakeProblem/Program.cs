@@ -51,6 +51,7 @@ namespace SevenSnakeProblem
                             continue;
                         }
 
+                        // checks if there is a snake with the same Sum
                         Snake similarSnake = validSnakes.Find(snake => snake.Sum == newSnake.Sum);
                         if (similarSnake != null && grid.CheckValidSnakes(similarSnake, newSnake))
                         {
