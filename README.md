@@ -51,4 +51,4 @@ or
 Other information
 -------------------
 
-Since a fixed N-sized 2-dimensional matrix is loaded, this may lead to a `System.OutOfMemoryException` if the argument file is big enough. In that case, the program will display an informative message.
+Since a fixed N-sized 2-dimensional matrix is loaded, this may lead to a `System.OutOfMemoryException` if the argument file is large enough. In that case, the program will display an informative message.
