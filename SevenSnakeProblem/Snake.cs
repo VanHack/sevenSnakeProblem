@@ -6,7 +6,6 @@ namespace SevenSnakeProblem
 {
     internal class Snake
     {
-        //TODO:
         private Grid grid;
         private int sum;
 
