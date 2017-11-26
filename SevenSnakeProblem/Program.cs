@@ -7,7 +7,7 @@ namespace SevenSnakeProblem
 {
     class Program
     {
-        private const string USAGE = "ConsoleApp2.exe filePath";
+        private const string USAGE = "SevenSnakeProblem.exe filePath";
         private static Grid grid;
         private static List<Snake> validSnakes;
         private static List<List<Direction>> validMoves;
@@ -30,7 +30,7 @@ namespace SevenSnakeProblem
                 return;
             }
 
-            validMoves = Helper.GenerateValidMoves();
+            validMoves = MoveGenerator.GenerateValidMoves();
             validSnakes = new List<Snake>();
 
             for (int i = 0; i < grid.Size; i++)
