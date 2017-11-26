@@ -14,11 +14,11 @@ Solution description
 The program starts by loading the file into a N-sized 2-dimensional matrix, where N is the number of elements on the first line of the file.
 
 Then, the program creates all possible combinations of 6 moves (UP, DOWN, LEFT, RIGHT) from a starting point. 
-- `UP, UP, UP, UP, UP, UP, UP`
-- `UP, UP, UP, UP, UP, UP, DOWN`
-- `UP, UP, UP, UP, UP, UP, LEFT`
-- `UP, UP, UP, UP, UP, UP, RIGHT`
-- `UP, UP, UP, UP, UP, DOWN, UP`
+- `UP, UP, UP, UP, UP, UP`
+- `UP, UP, UP, UP, UP, UP`
+- `UP, UP, UP, UP, UP, UP`
+- `UP, UP, UP, UP, UP, UP`
+- `UP, UP, UP, UP, UP, DOWN`
 - ....
 
 
