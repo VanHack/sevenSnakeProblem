@@ -28,9 +28,9 @@ From these combinations, some are discarded since they would produce invalid sna
 
 There are a total of 12 invalid move sequences.
 
-After getting a M-element list of 6 moves, the program goes through all grid cells and tries to create M snakes based on this list. 
+After getting the M-element list of 6 moves, the program goes through all grid cells and tries to create M snakes based on this list. 
 
-Depending on the initial cell, some moves create out-of-bounds snakes that are discarded.
+Depending on the initial cell, some moves create out-of-bounds snakes that are discarded. Example: a snake starting on (0,0) will go out of bounds if a `LEFT` or an `UP` move is performed.
 
 Every time a valid snake is created, its `Sum` is stored and is then compared with the `Sum` of other valid snakes prevously identified.
 
