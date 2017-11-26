@@ -26,7 +26,7 @@ namespace SevenSnakeProblem
             }
             catch (OutOfMemoryException)
             {
-                Console.Error.WriteLine("Error while loading file.\nProvide a smaller file.");
+                Console.Error.WriteLine("Error while loading file: Provide a smaller file.");
                 return;
             }
             catch (Exception e)
