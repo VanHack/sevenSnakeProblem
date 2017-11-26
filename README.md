@@ -31,7 +31,7 @@ After getting the M-element list of 6 moves, the program goes through all grid c
 
 Depending on the initial cell, some moves create out-of-bounds snakes that are discarded. Example: a snake starting on (0,0) will go out of bounds if a `LEFT` or an `UP` move is performed.
 
-Every time a valid snake is created, its `Sum` is stored and is then compared with the `Sum` of other valid snakes prevously identified.
+Every time a valid snake is created, its `Sum` is stored and compared with the `Sum` of other valid snakes prevously identified.
 
 As soon as the program finds a pair of snakes that do not share any cells and have the same `Sum`, it prints the position of the snakes. If a solution cannot be found, the text `FAIL` is printed.
 
