@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SevenSnakeProblem
 {
-    public static class Helper
+    public static class MoveGenerator
     {
         // Invalid moves that are ignored.
         private static List<List<Direction>> invalidMoves = new List<List<Direction>>() {
@@ -52,7 +52,7 @@ namespace SevenSnakeProblem
                                         bool validMove = true;
                                         foreach (List<Direction> move in invalidMoves)
                                         {
-                                            if (Helper.ContainsSequence<Direction>(list, move))
+                                            if (MoveGenerator.ContainsSequence<Direction>(list, move))
                                             {
                                                 validMove = false;
                                                 break;
@@ -75,7 +75,7 @@ namespace SevenSnakeProblem
         /**
          * Checks if a list contains a given sublist.
          */
-        public static bool ContainsSequence<T>(this IEnumerable<T> source,
+        private static bool ContainsSequence<T>(this IEnumerable<T> source,
                                        IEnumerable<T> other)
         {
             int count = other.Count();
