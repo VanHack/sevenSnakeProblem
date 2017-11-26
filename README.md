@@ -23,8 +23,8 @@ Then, the program creates all possible combinations of 6 moves (UP, DOWN, LEFT, 
 
 
 From these combinations, some are discarded since they would produce invalid snakes, for example:
-- Any sequence that contains an UP move followed by a DOWN move. (the snake should use 7 distinct cells)
-- Any sequence that contains an UP, LEFT and DOWN sequence of moves (this sequence would create a cycle).
+- Any sequence that contains an `UP` move followed by a `DOWN` move. (the snake should use 7 distinct cells)
+- Any sequence that contains an `UP`, `LEFT` and `DOWN` sequence of moves (this sequence would create a cycle).
 
 There are a total of 12 invalid move sequences.
 
