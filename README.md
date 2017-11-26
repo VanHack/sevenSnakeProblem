@@ -15,11 +15,11 @@ The program starts by loading the file into a N-sized 2-dimensional matrix, wher
 
 Then, the program creates all possible combinations of 6 moves (UP, DOWN, LEFT, RIGHT) from a starting point. 
 - `UP, UP, UP, UP, UP, UP`
-- `UP, UP, UP, UP, UP, UP`
-- `UP, UP, UP, UP, UP, UP`
-- `UP, UP, UP, UP, UP, UP`
 - `UP, UP, UP, UP, UP, DOWN`
-- ....
+- `UP, UP, UP, UP, UP, LEFT`
+- `UP, UP, UP, UP, UP, RIGHT`
+- `UP, UP, UP, UP, DOWN, UP`
+- `....`
 
 
 From these combinations, some are discarded since they would produce invalid snakes, for example:
