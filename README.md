@@ -11,7 +11,7 @@ Download the latest release and execute the following command:
 Solution description
 ---------
 
-The program starts by loading the file into a N-sized 2-dimensional matrix, where N is the number of elements on the first line of the file.
+The program starts by loading the file into a N-sized 2-dimensional matrix, where N is the number of elements in the first line of the given file.
 
 Then, the program creates all possible combinations of 6 moves (UP, DOWN, LEFT, RIGHT) from a starting point. 
 - `UP, UP, UP, UP, UP, UP`
