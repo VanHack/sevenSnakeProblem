@@ -29,7 +29,6 @@ namespace SevenSnakeProblem
             }
 
             size = lines[0].Split(',').Count();
-
             currentGrid = new int[size, size];
 
             for (int i = 0; i < lines.Count(); i++)
@@ -44,7 +43,7 @@ namespace SevenSnakeProblem
         }
 
         /**
-         * Checks if two snakes are valid within the grid, that is, do not share cells.
+         * Checks if two snakes are distinct, that is, they do not share cells.
          */
         public bool CheckValidSnakes(Snake s1, Snake s2)
         {
