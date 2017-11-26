@@ -24,6 +24,11 @@ namespace SevenSnakeProblem
             {
                 grid.LoadGrid(args[0]);
             }
+            catch (OutOfMemoryException)
+            {
+                Console.Error.WriteLine("Error while loading file.\nProvide a smaller file.");
+                return;
+            }
             catch (Exception e)
             {
                 Console.Error.WriteLine(String.Format("Error while loading file: {0}", e.Message));
